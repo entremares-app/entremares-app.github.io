@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Código abierto y licencias · Entre Mares</title><style>:root{--bg:#0B1F33;--card:#12304D;--cyan:#4FC3E8;--green:#7FD6A6;--text:#E8F1F8;--muted:#A9BED0}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:28px 20px 60px}
+header{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+header .logo{width:40px;height:40px;border-radius:12px;background:var(--card);display:grid;place-items:center;color:var(--cyan);font-weight:700}
+header a{color:var(--text);text-decoration:none;font-weight:700;font-size:18px}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 24px}
+nav a{color:var(--cyan);text-decoration:none;border:1px solid #24496d;border-radius:999px;padding:4px 12px;font-size:14px}
+h1{font-size:28px;line-height:1.25;margin:8px 0 4px}
+h2{font-size:19px;margin:30px 0 8px;color:var(--cyan)}
+p,li{color:var(--text)}
+.muted{color:var(--muted);font-size:14px}
+.card{background:var(--card);border-radius:14px;padding:16px 18px;margin:14px 0}
+.card.ok{border-left:4px solid var(--green)}
+.card.warn{border-left:4px solid #FFB547}
+a{color:var(--cyan)}
+code{background:#0e2741;padding:1px 6px;border-radius:6px}
+table{width:100%;border-collapse:collapse;margin:10px 0;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid #24496d}
+th{color:var(--muted);font-weight:600}
+ol li,ul li{margin:4px 0}
+footer{margin-top:40px;color:var(--muted);font-size:13px;border-top:1px solid #24496d;padding-top:14px}
+</style></head>
+<body><main>
+<header><div class="logo">EM</div><a href="index.html">Entre Mares</a></header>
+<nav><a href="index.html">Inicio</a><a href="privacidad.html">Privacidad</a><a href="borrar-cuenta.html">Borrar cuenta</a><a href="codigo-fuente.html">Código abierto</a></nav>
+<h1>Código abierto y licencias</h1>
+<p class="muted">Entre Mares – Diario de buceo</p>
+
+<h2>libdivecomputer</h2>
+<p>Entre Mares usa <strong>libdivecomputer</strong> para leer las inmersiones de los ordenadores de buceo por Bluetooth. libdivecomputer es software libre, con licencia <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU LGPL versión 2.1</a>. © Jef Driesen y colaboradores.</p>
+<ul>
+<li>Versión incluida: 0.10.0-devel, revisión <code>0194f09d</code> (16 de noviembre de 2026) del proyecto original.</li>
+<li>Proyecto original: <a href="https://github.com/libdivecomputer/libdivecomputer">github.com/libdivecomputer/libdivecomputer</a></li>
+<li>Código exacto que lleva la app, con el pequeño puente que la conecta con Entre Mares (<code>dcbridge.c</code>) y las instrucciones de compilación: <a href="https://github.com/entremares-app/entremares-libdivecomputer">github.com/entremares-app/entremares-libdivecomputer</a></li>
+</ul>
+<p>Puedes descargar ese código, modificarlo y compilarlo según la licencia LGPL 2.1. Si prefieres recibirlo por otra vía, escribe a <a href="mailto:entremares.app@gmail.com">entremares.app@gmail.com</a>.</p>
+
+<h2>Otros componentes</h2>
+<table>
+<tr><th>Componente</th><th>Licencia</th></tr>
+<tr><td>Fuentes IBM Plex Sans Condensed e IBM Plex Mono (© IBM Corp.)</td><td>SIL Open Font License 1.1</td></tr>
+<tr><td>Fuente Inter (© The Inter Project Authors)</td><td>SIL Open Font License 1.1</td></tr>
+<tr><td>Fuente Space Grotesk (© The Space Grotesk Project Authors)</td><td>SIL Open Font License 1.1</td></tr>
+<tr><td>Bibliotecas de Android Jetpack (Compose, Room, Browser…) (© The Android Open Source Project)</td><td>Apache 2.0</td></tr>
+<tr><td>Kotlin y kotlinx.coroutines (© JetBrains s.r.o.)</td><td>Apache 2.0</td></tr>
+<tr><td>OkHttp y Okio (© Square, Inc.)</td><td>Apache 2.0</td></tr>
+<tr><td>Maps Compose (© Google LLC)</td><td>Apache 2.0</td></tr>
+<tr><td>Google Play services: Maps SDK y Location (Google LLC)</td><td><a href="https://developers.google.com/terms">Condiciones de Google APIs</a></td></tr>
+</table>
+<p>Los textos completos de las licencias están dentro de la app, en Ajustes › «Licencias de código abierto».</p>
+
+<footer>Entre Mares – Diario de buceo · Rafael Martínez Garrido · <a href="mailto:entremares.app@gmail.com">entremares.app@gmail.com</a></footer>
+</main></body></html>
